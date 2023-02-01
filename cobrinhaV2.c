@@ -1,6 +1,6 @@
-/* TODO (#1#):*passar para funçao algumas coisas(ja fiz para o tabuleiro)
+/* TODO (#1#):*passar para funÃ§ao algumas coisas(ja fiz para o tabuleiro)
                *arrumar o contador
-               *botar mais espaço no tabuleiro
+               *botar mais espaÃ§o no tabuleiro
 			    */
 
 
@@ -14,7 +14,6 @@ void spawn(void);
 int main()
 {
 system("color 2e");
-system("")
 
 
 
@@ -71,7 +70,7 @@ for(coluna=0;coluna<10;coluna++)
 {
 		
 		tabuleiro[coluna][linha] = 1;
-		tabuleiro [nx][ny]= 2;//posiçao do piao
+		tabuleiro [nx][ny]= 2;//posiÃ§ao do piao
 		tabuleiro[ptx][pty] = 3;//posicao do ponto
 	if (tabuleiro[coluna][linha] == 1)
 {
@@ -116,7 +115,7 @@ for(coluna=0;coluna<10;coluna++)
 {
 		
 		tabuleiro[coluna][linha] = 1;
-		tabuleiro [nx][ny]= 2;//posiçao do piao
+		tabuleiro [nx][ny]= 2;//posiÃ§ao do piao
 		tabuleiro[ptx][pty] = 3;
 	if (tabuleiro[coluna][linha] == 1)
 {
@@ -159,7 +158,7 @@ for(coluna=0;coluna<10;coluna++)
 {
 		
 		tabuleiro[coluna][linha] = 1;
-		tabuleiro [nx][ny]= 2;//posiçao do piao
+		tabuleiro [nx][ny]= 2;//posiÃ§ao do piao
 		tabuleiro[ptx][pty] = 3;
 		if (tabuleiro[coluna][linha] == 1)
 {
@@ -203,7 +202,7 @@ for(coluna=0;coluna<10;coluna++)
 {
 		
 		tabuleiro[coluna][linha] = 1;
-		tabuleiro [nx][ny]= 2;//posiçao do piao
+		tabuleiro [nx][ny]= 2;//posiÃ§ao do piao
 		tabuleiro[ptx][pty] = 3;
 		if (tabuleiro[coluna][linha] == 1)
 {
@@ -227,7 +226,7 @@ for(coluna=0;coluna<10;coluna++)
 	return 0;
 }//main
 
-void spawn(void)//funçao de tabuleiro e player
+void spawn(void)//funÃ§ao de tabuleiro e player
 {
 	int ptx, pty, ny, nx, linha, coluna;
 	int tabuleiro [100][100];
